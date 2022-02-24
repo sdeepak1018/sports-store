@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('C:\Users\DEEPAK\Downloads\msd.jpg');
+}
+.button{
+color:white;
+background-color:#333;
+font-size: 20px;
+margin:10px 20px;
+}
+.button:hover{
+color:white;
+background-color:blue;
+}
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.loader {
+  text-align:center;
+  border: 16px solid #f3f3f3;
+  border-radius: 100%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+</style>
+</head>
+<Body background="C:\Users\DEEPAK\Downloads\msd.jpg">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul><br>
+
+<form class="center"  action="bat.html">
+ <button class="button" type="submit">CRICKET</button>
+</form><br>
+
+<form class="center"  action="football.html">
+ <button class="button" type="submit">FOOTBALL</button>
+</form><br>
+
+<form class="center"  action="jersy.html">
+ <button class="button" type="submit">SPORT WEAR</button>
+</form>
+
+<div class="loader"><div>
+
+</body>
+</html>
+
+
